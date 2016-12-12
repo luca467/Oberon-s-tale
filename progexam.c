@@ -23,7 +23,9 @@ int main(){
         termina_gioco();
       }
       default{
-      system("clear");
+        system("clear");
+        printf("Comando errato\n");
+        
       }
     }
   }while(b==0);
